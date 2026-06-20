@@ -10,6 +10,7 @@ I'm interested in understanding *why* models behave the way they do, not just wh
 
 ### [Docrot Detector](https://github.com/Motiefling/Docrot-Detector)
 [See it in action.](https://docrot-detector.web.app/)  
+[See the frontend repo.](https://github.com/marieliske/CS4485_Capstone_Frontend)  
   
 Senior capstone project. An AST-based documentation rot detector that flags when code changes have likely made existing documentation stale. Parses Python source into semantic fingerprints per function, scores changes by impact (control flow, side effects, API signature, exceptions), maps changes to affected docs, and automates the whole flow as a GitHub Action with optional LLM-generated fix suggestions.
 
